@@ -1,0 +1,19 @@
+creo projecto con comando> composer create-project laravel/laravel Laravel_CRUD
+
+creo tablas con comando 
+hp artisan make:migration create_productos_table --create="productos"
+
+migro tablas a base de datos
+php artisan migrate
+
+creacion controller plantillas
+php artisan make:controller --resource ProductosController
+
+
+creo rutas en web.php
+
+creo vistas en sources/view
+
+
+creo el modelo comando
+php artisan make:model Producto
